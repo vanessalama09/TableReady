@@ -1,0 +1,7 @@
+//These just look good with red!
+
+
+Red color: #9C1B1F
+fulvous color: #E48400
+lighter shade fulvous: #f2e3ce
+mint: #d8f0d8

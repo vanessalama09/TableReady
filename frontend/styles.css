@@ -1,0 +1,92 @@
+
+*{
+	font-family: Geneva, sans-serif;
+}
+
+h1{
+	font-size: 4vw;
+	color: orange;
+	text-align: left;
+	margin-left: 5%;
+}
+
+
+header{
+	background: black;
+	color:#ffffff;
+	padding-top:30px;
+	border-bottom: orange 5px solid;
+	width: 100%;
+	display: flex;
+}
+
+#loginlink{
+	position: absolute;
+	right: 5%;
+	font-size: 2vw;
+}
+
+#loginlink a{
+	color: orange;
+	text-decoration: none;
+	border: solid orange 1px;
+	padding: 5% 20% 5% 20%;
+	background-color: #202020;
+	float:right;
+}
+
+
+#loginlink a:hover{
+	color: white;
+}
+
+body{
+	background:url('background.jpg') repeat;
+	color: darkorange;
+	font-size: 22px;
+	overflow-x: hidden;
+}
+
+#cool{
+	border-top: orange solid 2px;
+	border-bottom: orange solid 2px;
+	text-align: center;
+	margin: auto;
+	background-color: #482107;
+	
+}
+
+#picture img{
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 1000px;
+	height: auto;
+}
+
+#info{
+	border-top: orange solid 2px;
+	border-bottom: orange solid 2px;
+	text-align: center;
+	margin: auto;
+	background-color: #482107;
+	
+}
+
+footer{
+	background: black;
+	color: darkorange;
+	padding-bottom:30px;
+	min-height:20px;
+	border-top:orange 5px solid;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	margin-right: -8px;
+	text-align: center;
+	font-size: 1vw;
+}
+
+#login{
+	text-align: center;
+	margin: auto;
+}

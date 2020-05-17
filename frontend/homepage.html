@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TableReady Homepage
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            body{
+                max-width: 100%;
+            }
+
+            .container{
+                min-width: 100%;
+            }
+            #top{
+                height: 80%;
+            }
+
+            #headerimg{
+                background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/dc0b1051006803.58df74a0d1be3.jpg");
+                height: 450px;
+                min-width: 100%;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                position: relative;
+            }
+           
+            #headertxt{
+                color: black;
+                text-align: center;
+            }
+
+            #headertxt button{
+                color: black;
+                text-align: center;
+            }
+
+
+            #navButtons{
+                position: relative;
+                margin: auto;
+                text-align: center;
+                max-width: 100%;
+                right: 5%;
+                margin-left: 15%;
+                margin-top: 5%;
+                float: right;
+            }
+
+            #navButtons a{
+                text-decoration: none;
+                color: #9C1B1F;
+                font-family: Helvetica, sans-serif;
+                font-size: calc(16px + 0.5vw);
+            }
+
+            #pop{
+                margin: auto;
+                margin-top: 5%;
+                float: right;
+                text-align: center;
+                background-color: rgba(156, 27, 31, 0.8);
+                border: none;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+
+            #pop a{
+                text-decoration: none;
+                color: white;
+                font-family: Helvetica, sans-serif;
+                font-size: calc(16px + 0.5vw);
+            }
+
+            #logo{
+                height: 100%;
+                width: 100%;
+            }
+
+            #aboutus{
+                text-align: center;
+                border-top: white solid 1px;
+                color: white;
+                background-color: rgba(156, 27, 31, 0.8);
+                min-height: 200px;
+            }
+
+            p{
+                font-size: calc(12px + 0.5vw);
+                color: white;
+            }
+            
+            #signin{
+                position: relative;
+                text-decoration: none;
+                font-size: calc(16px + 0.8vw);
+                font-weight: bold;
+                bottom: 200px;
+                color: white;
+                background-color: rgba(156, 27, 31, 0.8);
+                font-family: Helvetica, sans-serif;
+                padding: 5px 12px 5px;
+            }
+        </style>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<!--JQuery for blur animation-->
+        <script>
+            $(document).ready(function(){
+                $('#signin').mouseenter(function(){
+                    $('#headerimg').css({'filter': 'blur(5px)'})
+                })
+                $('#signin').mouseleave(function(){
+                    $('#headerimg').css({'filter': 'blur(0px)'})
+                })
+            })
+             
+        </script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+        <div class = "container">
+
+            <div id="top" class="row">
+
+                <div class="col-sm-3" >
+                    <!--logo tableready-->
+                    <img src="http://www.tableready.net/wp-content/uploads/2019/03/cropped-logo-big-768x199.png" id="logo">
+
+                </div>
+                <div class="col-sm-3"></div>
+                <!--Nav bar for navigation-->
+                <div class="col-sm-6" id="navbar" span="">
+                        <div id="navButtons" class="col-xs-1"> <b><a href="">Home</a></b> </div>
+                        <div id="pop" class="col-xs-1"> <b><a href="signup.php">Sign&nbsp;Up</a></b> </div>
+                        <div id="navButtons" class="col-xs-1"> <b><a href="#aboutus">About&nbsp;Us</a></b> </div>
+                </div>
+                
+                
+
+            </div>
+
+            <br>
+
+            <div class="row">
+
+                <div class="col-xl-12" id="headerimg"></div>
+                <div id="headertxt" class="col-sm-12">
+        
+                        <a href="login.php" id="signin">Login</a>
+    
+                </div>
+                
+              
+
+            </div>
+
+            <br>
+
+            
+            
+            <br>
+
+            <div id="aboutus" class="row">
+
+                <div class="col-md-12">
+                    <!--About Us-->
+                    <br>
+                    <h3>Hello There!</h3>
+                    <p>
+                            <i class="fa fa-coffee" style="font-size:48px"></i><br><br><i class="fa fa-circle" style="font-size:12px"></i> TableReady is a reservations and seating management system that turns smartphones into pagers, revolutionizing the way restaurants connect with customers.
+                            <br> <i class="fa fa-circle" style="font-size:12px"></i> TableReady allows restaurants to see the wait list in real-time, notify customers when their table is ready, seat them efficiently, and stay connected with them by push notification messages.
+                            <br> <i class="fa fa-circle" style="font-size:12px"></i> TableReady is a wait list, paging, and reservations system with a mobile app that allows users to map restaurants, waitlist themselves, make reservations, leave feedback easily, and order food to-go online.
+                            The free app allows users to find restaurants near them, waitlist their party, book reservations quickly and easily, and order food for take-out, all with the restaurant's full control and ability to communicate with them every step of the way.
+                            <br> <i class="fa fa-circle" style="font-size:12px"></i> For an affordable monthly subscription fee, TableReady manages your wait list and reservations system, allowing restaurants to connect with their customers, seat them, and reward them.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
